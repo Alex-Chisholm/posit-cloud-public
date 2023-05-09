@@ -1,3 +1,3 @@
 library(tidyverse)
 
-ggplot(mpg, aes(x = hwy)) + geom_histogram()
+ggplot(mpg, aes(x = cty)) + geom_histogram()
