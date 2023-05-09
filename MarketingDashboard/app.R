@@ -41,7 +41,7 @@ server <- function(input, output) {
     ggplot(data.frame(values = chart_data), aes(x = values)) + 
       geom_histogram(fill = 'blue', color = "black", bins = input$bins) +
       theme_minimal() +
-      labs(title = str_c("Mean time on the ", input$rb, ": " , round(mean(chart_data),0), " seconds"))
+      labs(title = paste0("Mean time on the ", input$rb, ": " , round(mean(chart_data),0), " seconds"))
 
     # hist(chart_data, breaks = bins, col = 'lightblue', border = 'white',
     #      xlab = 'Seconds on the website',
