@@ -9,6 +9,6 @@ usethis::git_sitrep()
 
 # in terminal
 
-# git config --global user.email "ajc2357@yahoo.com"
-# git config --global user.name "Alex-Chisholm"
-# git config --global --list
+git config --global user.email "ajc2357@yahoo.com"
+git config --global user.name "Alex-Chisholm"
+git config --global --list
