@@ -6,4 +6,7 @@ usethis::gh_token_help()
 usethis::git_sitrep()
 
 
-usethis::edit_r_environ()
+# in terminal
+
+# git config --global user.email "ajc2357@yahoo.com"
+# git config --global user.name "Alex-Chisholm"
