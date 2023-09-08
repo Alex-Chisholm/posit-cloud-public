@@ -10,3 +10,4 @@ usethis::git_sitrep()
 
 # git config --global user.email "ajc2357@yahoo.com"
 # git config --global user.name "Alex-Chisholm"
+# git config --global --list
