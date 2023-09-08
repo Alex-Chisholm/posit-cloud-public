@@ -7,7 +7,7 @@ usethis::git_sitrep()
 
 
 
-# in terminal
+# in terminal - this is great?
 
 git config --global user.email "ajc2357@yahoo.com"
 git config --global user.name "Alex-Chisholm"
