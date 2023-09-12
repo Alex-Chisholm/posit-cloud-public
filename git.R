@@ -10,6 +10,7 @@ usethis::git_sitrep()
 # in terminal - this is great?
 
 git config --global credential.helper 'cache --timeout 604800'
+git config credential.helper store
 git config --global user.email "ajc2357@yahoo.com"
 git config --global user.name "Alex-Chisholm"
 git config --global --list
